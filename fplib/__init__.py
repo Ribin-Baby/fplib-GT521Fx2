@@ -1,0 +1,1 @@
+from .fpmain import Fingerprint as fplib
