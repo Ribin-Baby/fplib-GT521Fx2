@@ -149,7 +149,8 @@ print("fetched template data: ", img_arr)
 
 OUTPUT:
 > **`Is template fetched : True`**
->  **`fetched template data: [1, 0, 4, 16, 100, 0, .... , 0, 0, 106, 68, 24, 70]`**
+
+> **`fetched template data: [1, 0, 4, 16, 100, 0, .... , 0, 0, 106, 68, 24, 70]`**
 
 ### 5. setting the fetched template to sensor memory.
 * we can upload back the fetched template data to the device memory, so that the sensor can use this template to identify a user.
