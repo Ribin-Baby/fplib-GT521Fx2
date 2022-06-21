@@ -1,4 +1,4 @@
-# >> Python Library for GT-521Fx2 fingerprint sensor module
+# > `Python Library for GT-521Fx2 fingerprint sensor module`
 ---
 * we have support for both python3 and MicroPython.
 
