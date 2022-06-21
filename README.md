@@ -1,6 +1,7 @@
 # > `Python Library for GT-521Fx2 fingerprint sensor module`
 ---
 * we have support for both python3 and MicroPython.
+* **`Tested python-version: [ "3.6.9" ]`**
 
 [![python](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/python-logo-generic.svg)](https://www.python.org/)   [![micropython](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/MicroPython_logo_400x400.jpg)](https://micropython.org/)
 
