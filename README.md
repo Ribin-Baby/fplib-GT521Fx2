@@ -181,6 +181,7 @@ OUTPUT:
 # Conclusion:
 ---
 * More functionalities are added to the library, you can find it in the code.
+
 some of the functionalities are:
 - get fingerprint image
 - enroll new users
