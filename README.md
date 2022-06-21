@@ -62,7 +62,7 @@ ______________
 ### 3.  [`junks`](https://github.com/Ribin-Baby/fplib-GT521Fx2/tree/main/junks) folder
 * This folder contains many image files that we used in [**README.md**](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/README.md) file of this project/Repo.
 ### 4. [`fplibMicro.py`](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/fplibMicro.py) file
-* This is the implementation of sensor code specially written for MicroPyhton supported devices, such as [**raspberry pi pico**](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) , [**esp32**](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) e.t.c.. . I have tested thee code on both the board and it works fine.
+* This is the implementation of sensor code specially written for MicroPyhton supported devices, such as [**raspberry pi pico**](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) , [**esp32**](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) e.t.c.. . I have tested the code on both the board and it works fine.
 ### 5. [`test.py`](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/test.py) file
 * In this file i have done testing of different functionalities that is supported by the sensor.
 * You can look onto it, and get a better idea on how to use this library for your needs.
