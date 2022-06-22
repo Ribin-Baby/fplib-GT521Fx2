@@ -33,6 +33,7 @@ While the input voltage is between **3.3V and 6V**, the UART's logic level is on
 * The `SDK_DEMO.exe` software tool is owned by [sparkfun](https://www.sparkfun.com/).
 
 # >> intro to our [repository](https://github.com/Ribin-Baby/fplib-GT521Fx2)
+---
 Directory structure:
 
 ```
