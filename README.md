@@ -5,7 +5,7 @@
 
 [![python](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/python-logo-generic.svg)](https://www.python.org/)   [![micropython](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/MicroPython_logo_400x400.jpg)](https://micropython.org/)
 
-# >> Introduction to GT-521Fx2
+# >> introduction to GT-521Fx2
 ---
 Our code is specially developed for  [**GT-521F32**](https://www.sparkfun.com/products/14518) and [**GT-521F52**](https://www.sparkfun.com/products/14585) series of sparkfun fingerprint sensors.
 [
@@ -22,6 +22,15 @@ While the input voltage is between **3.3V and 6V**, the UART's logic level is on
 #### Pinout:
 [
 ![sensor](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/14518-04SerialPowerConnectorLabel.png)](https://learn.sparkfun.com/tutorials/fingerprint-scanner-gt-521fxx-hookup-guide)
+
+* A Quick testing tool by [sparkfun](https://www.sparkfun.com/) for windows is available to download from [here](https://cdn.sparkfun.com/assets/learn_tutorials/7/2/3/20171129-SDK_Demo_Ver1.9.zip).
+ 
+ [![SDK_demo](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/FingerprintScannerConnectSDK.png)](https://learn.sparkfun.com/tutorials/fingerprint-scanner-gt-521fxx-hookup-guide)
+ <p align = "center">  
+<i>Fig.1 -  SDK_DEMO.exe quick testing tool for windows.</i>
+</p>
+
+* The `SDK_DEMO.exe` software tool is owned by [sparkfun](https://www.sparkfun.com/).
 
 # >> intro to our [repository](https://github.com/Ribin-Baby/fplib-GT521Fx2)
 Directory structure:
@@ -68,7 +77,7 @@ ______________
 * In this file i have done testing of different functionalities that is supported by the sensor.
 * You can look onto it, and get a better idea on how to use this library for your needs.
 
-# >> Intro to the library code and its testing.
+# >> intro to the library code and its testing.
 ---
 ### 1. initializing communication with the sensor.
 * First of all connect the device to your computer and make a note of the communication port allocated to the device.
@@ -77,7 +86,7 @@ ______________
 ![img1](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/IMG_20220621_142706-01.jpeg)](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/junks/IMG_20220621_142706-01.jpeg)
 
 <p align = "center">  
-<i>Fig.1 - Sensor connected to a raspberry pi pico microcontroller.</i>
+<i>Fig.2 - Sensor connected to a raspberry pi pico microcontroller.</i>
 </p>
 
 * now we are importing the library to our python code.
@@ -114,7 +123,7 @@ print("LED status :", led)
 ![img1](https://raw.githubusercontent.com/Ribin-Baby/fplib-GT521Fx2/main/junks/IMG_20220621_142801.JPG)](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/junks/IMG_20220621_142801.JPG)
 
 <p align = "center">  
-<i>Fig.2 - Sensor LED in ON state.</i>
+<i>Fig.3 - Sensor LED in ON state.</i>
 </p>
 
 OUTPUT:
@@ -180,16 +189,22 @@ OUTPUT:
 > **`identified id: 4`**
 
 
-# Conclusion:
+# Conclusion :
 ---
 * More functionalities are added to the library, you can find it in the code.
 
-some of the functionalities are:
-- get fingerprint image
-- enroll new users
-- verifying users
-- recognizing users 
-- e.t.c ..,
+* some of the functionalities are:
+	- - get fingerprint image
+	- - enroll new users
+	- - verifying users
+	- - recognizing users 
+	- - e.t.c ..,
+* Arduino code for this fingerprint sensor is available in official sparkfun repository : [click here](https://github.com/sparkfun/Fingerprint_Scanner-TTL)
 
-## THE END
+## License Information :
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
+*  [MIT](https://github.com/Ribin-Baby/fplib-GT521Fx2/blob/main/LICENSE)
+
+### THE END
+___
